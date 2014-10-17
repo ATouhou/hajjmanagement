@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Hajj Management System</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+<script type="text/javascript">
+function checkfrm(f){
+var username = document.getElementById('username').value;
+var password = document.getElementById('password').value;
+if(username=='')
+{
+	document.getElementById('error_msg').innerHTML =' Please enter username';
+	return false;
+}
+if(password=='')
+{
+	document.getElementById('error_msg').innerHTML = 'Please enter password';	
+	return false;		
+}
+	
+}
+</script>
+		<!--[if IE 7]>
+			<link rel="stylesheet" href="css/ie7.css" type="text/css" />
+		<![endif]-->
+	</head>
+	<body>
+		<div class="page">
+			<div class="header">
+				<a href="index.html" id="logo"><img src="images/logo.png" width="100" alt="Hajj Management System"/></a>
+				<ul>
+					<li class="selected"><a href="index.html">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Services</a></li>
+				</ul>
+			</div>
+			<div class="body">
+				<div id="featured">
+					<h3>
+                    
+                    
+ <table width="900">
+  <tr>
+    <td width="480">Hajj Management System</td>
+    <td width="400" style="padding-left:100px;">Login Form</td>
+  </tr>
+</table>
+
+           </h3>
+					<table width="0" border="0">
+					  <tr>
+					    <td width="480" valign="top"><p>The Hajj Management System Facilatates the user to print tickets online. This Management System is capable of printing e-ticket, Tracking of luggage and users. It also helps the state agents to register their people online.</p></br>
+                        <input type="button" value="Read more" /></td>
+					    <td width="420" height="400" valign="top">
+                <!--     START OF LOGIN FORM  -->
+                   <div id="disp_msg" style="padding-left:60px;color:#F00;" ><p align="center" style="color:#F00;"></p></div>
+<form name="loginfrm" id="loginfrm" method="post" action="action/checklogin.php" onSubmit=" return checkfrm(this.value);">
+<table width="400" border="0" align="left" style="padding-left:60px; vertical-align:top; margin-top:0px;color:#5d5d5d;font-family: 'RokkittRegular';font-size:22px;
+">
+                          <tr>
+                            <td colspan="2" valign="top"><div id="error_msg"></div></td>
+                          </tr>
+                          <tr>
+                            <td valign="top">Username</td>
+                            <td valign="top"><input type="text" name="username" id="username"></td>
+                          </tr>
+                          <tr>
+                            <td valign="top">Password</td>
+                            <td valign="top"><input type="password" name="password" id="password"></td>
+                          </tr>
+                          <tr>
+                            <td>&nbsp;</td>
+                            <td><label>
+                              <input type="submit" name="signin" id="signin" value="Submit">
+                            </label></td>
+                          </tr>
+                        </table>
+</form>
+                <!--     END OF LOGIN FORM  -->   
+						
+                        </td>
+				      </tr>
+				  </table>
+
+				</div>
+				<ul class="blog">
+					<li>
+						<div>
+							<a href="#"><img src="images/pastries.jpg" alt=""/></a>
+							<p>This portal has the key features to generate E-ticket.
+                            It can aslo generate boarding pass with hasel free pilgrim registration. </p>
+							<a href="#">&nbsp;</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<a href="blog.html"><img src="images/fruits.jpg" alt=""/></a>
+							<p>This portal can also track the pilgrims. Just by entering the passport number one can track his luggage.</p>
+							<a href="#">&nbsp;</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<a href="blog.html"><img src="images/cosmetics.jpg" alt=""/></a>
+							<p>Once can generate reports for carrier, agency and luggage. The supervisor can keep track the process going under his administration</p>
+							<a href="#">&nbsp;</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="footer">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="services.html">Gallery</a></li>
+				</ul>
+				<p>&#169; Copyright &#169; 2013. Ask air services all rights reserved</p>
+				<div class="connect">
+<!--					<a href="http://facebook.com/freewebsitetemplates" id="facebook">facebook</a>
+					<a href="http://twitter.com/fwtemplates" id="twitter">twitter</a>
+					<a href="http://www.youtube.com/fwtemplates" id="vimeo">vimeo</a>
+                    -->
+				</div>
+			</div>
+		</div>
+	</body>
+</html>  

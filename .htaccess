@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^newhajj\.askairservices\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.newhajj\.askairservices\.com$
+RewriteRule ^/?$ "http\:\/\/www\.askairservices\.com\/warning\.php" [R=301,L]
+
